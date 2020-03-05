@@ -8,7 +8,7 @@ export default() => (
           to="/"
 
         >
-         	<img src={Logo} style = {{width:120}}/>
+         	<img className="navbar-brand" src={Logo} style = {{width:120}}/>
         </Link>
 
 	)

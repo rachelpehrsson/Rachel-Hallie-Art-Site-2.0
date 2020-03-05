@@ -49,6 +49,7 @@ const Layout = ({ children }) => {
           crossOrigin="anonymous"
         />
       </Helmet>
+      <div className="container-fluid">
       <Header />
       <div
         style={{
@@ -64,6 +65,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
 
         </footer>
+        </div>
       </div>
     </>
   )

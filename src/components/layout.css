@@ -628,3 +628,15 @@ font-family:"Cinzel" !important;
 header img{
 margin-bottom:0px;
 }
+
+/****LAYOUT DATA****/
+
+.container-fluid{
+  padding:0px !important;
+  margin:0px;
+}
+
+.navbar-cinema{
+  justify-content: space-between !important;
+}
+
