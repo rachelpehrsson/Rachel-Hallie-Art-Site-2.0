@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import '../assets/css/fonts.css';
+import './fonts.css';
 import React from "react"
 import Logo from "./logo"
 

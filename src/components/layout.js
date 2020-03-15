@@ -10,7 +10,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import { Helmet } from "react-helmet"
+import "./fonts.css"
 import "./layout.css"
+
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -48,6 +50,7 @@ const Layout = ({ children }) => {
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossOrigin="anonymous"
         />
+
       </Helmet>
       <div className="container-fluid">
       <Header />

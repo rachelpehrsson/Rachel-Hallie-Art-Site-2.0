@@ -641,11 +641,11 @@ margin-bottom:0px;
 }
 
 .home-banner{
-  background: url(../images/JamesDeanDayDream.png) center center no-repeat;
+  background: url(../images/JamesDeanDayDream.png) no-repeat center center fixed;
   background-size: cover;
   width:100%;
   height:100%;
-
+  font-family:"Cinzel" ;
 }
 .home-banner:after {
     content: '';

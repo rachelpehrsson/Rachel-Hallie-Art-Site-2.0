@@ -9,10 +9,14 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className = "banner" style={{
           margin: "0px",
-          height:"500px",
+          height:"85vh",
           position:"relative",
         }}>
-    <div className = "home-banner"></div>
+    <div className = "home-banner">
+    	<div className = "container" style ={{
+    		textAlign:"center",
+    	}}>Rachel Hallie Art</div>
+    </div>
 </div>
    
   </Layout>
